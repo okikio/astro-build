@@ -194,17 +194,20 @@ const editHref = githubEditUrl;
 
   <body>
     <style lang="scss">
-    #animated-box {
-      width: 50px;
-      aspect-ratio: 1 / 1;
-      position: absolute;
-      @apply bg-blue-500 rounded-xl;
-      top: 0;
-      left: 0;
-      z-index: 10;
-    }
+      #animated-box {
+        width: 50px;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        @apply bg-blue-500 rounded-xl;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
     </style>
-    <div id="animated-box"></div>
+
+    <div id="animated-box">
+      Animated Box
+    </div>
     <header>
       <nav class="layout">
         <div class="nav-wrapper">
@@ -248,6 +251,7 @@ const editHref = githubEditUrl;
         <DocSidebar client:idle headers={headers} editHref={editHref} />
       </aside>
     </main>
+
     <script src="/main.js" type="module" async></script>
   </body>
 </html>
