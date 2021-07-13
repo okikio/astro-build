@@ -29,9 +29,11 @@ importers:
     specifiers:
       '@okikio/animate': '*'
       '@okikio/native': '*'
+      complex-lib: workspace:*
     dependencies:
       '@okikio/animate': 2.3.1
       '@okikio/native': 3.0.1
+      complex-lib: link:../complex-lib
 
 packages:
 

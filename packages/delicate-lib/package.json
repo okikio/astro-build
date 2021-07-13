@@ -19,6 +19,7 @@
   "homepage": "https://github.com/okikio/astro-build#readme",
   "dependencies": {
     "@okikio/animate": "*",
-    "@okikio/native": "*"
+    "@okikio/native": "*",
+    "complex-lib": "workspace:*"
   }
 }

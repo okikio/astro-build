@@ -3,4 +3,4 @@ import { EventEmitter } from "@okikio/emitter";
 
 export const ANIMATE = new Animate({ });
 export const EMITTER = new EventEmitter();
-export { ApplyCustomEasing } from "@okikio/animate";
+export { ApplyCustomEasing, animate } from "@okikio/animate";

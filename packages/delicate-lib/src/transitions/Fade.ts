@@ -1,5 +1,4 @@
-
-import { animate } from "@okikio/animate";
+import { animate } from "complex-lib";
 
 import type { ITransition, ITransitionData } from "@okikio/native";
 
