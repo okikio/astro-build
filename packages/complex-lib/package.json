@@ -1,0 +1,24 @@
+{
+  "name": "complex-lib",
+  "version": "1.0.0",
+  "description": "A Complex Library",
+  "main": "src/api.ts",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okikio/astro-build.git"
+  },
+  "author": "Okiki Ojo <https://github.com/okikio>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okikio/astro-build/issues"
+  },
+  "homepage": "https://github.com/okikio/astro-build#readme",
+  "dependencies": {
+    "@okikio/animate": "*",
+    "@okikio/emitter": "*"
+  }
+}
