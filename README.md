@@ -1,6 +1,8 @@
 # astro-build
 A test of astro js in a complex workspace, using pnpm, the workspace protocol, multiple linked packages, and typescript for everything.
 
+[![Open In Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/okikio/astro-build)
+
 ## Astro Starter Kit: Docs Site
 
 ```
